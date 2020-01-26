@@ -1,0 +1,4 @@
+.idea
+*.iml
+Tracked Data/*
+node_modules/*
