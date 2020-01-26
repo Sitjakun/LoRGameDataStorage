@@ -7,6 +7,7 @@ let directory;
 let previousCardPositions = "None";
 trackGameState();
 
+// Recursive function
 function trackGameState() {
     isPlayerInGame().then(isPlayerInGame => {
         if (!isPlayerInGame) {
@@ -29,7 +30,7 @@ function trackGame() {
             // Stores current deck inside the unique folder
             storeDeck(deckAsJson);
 
-            // If game is active then keep storing data with storeData function
+            // If game is active then keep storing data with storeData recursive function
             storeData();
 
         }
