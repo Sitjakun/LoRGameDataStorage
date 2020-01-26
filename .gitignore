@@ -2,3 +2,4 @@
 *.iml
 Tracked Data/*
 node_modules/*
+/logs.txt
