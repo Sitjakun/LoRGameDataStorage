@@ -5,5 +5,9 @@ Simply launch LorGameDataStorage.js and start playing.
 
 Registered games are stored under the project location, inside the "Tracked Data" folder
 
+
+Timers :
+
 Tracks game status every 1.5 seconds until a game is found
+
 Retrieves card positions every 2 seconds
