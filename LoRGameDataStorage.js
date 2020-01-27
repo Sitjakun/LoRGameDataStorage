@@ -84,7 +84,7 @@ async function isPlayerInGame() {
     const json = await getCardPositions();
 
     // Checks if there is an active deck
-    if (json.GameState !== "InProgress") {
+    if (!json || json.GameState !== "InProgress") {
         log("Player is not in game");
         return false;
     } else {
